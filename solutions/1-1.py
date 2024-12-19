@@ -1,7 +1,7 @@
 left = []
 right = []
 
-with open('inputs/1-1.txt') as file:
+with open('inputs/1.txt') as file:
     for line in file:
         left_num, right_num = line.split()
         left.append(int(left_num))
